@@ -9,6 +9,8 @@
 
 ## M1
 - [x] Native Dataset Schema V1 与 runtime validation
+- [x] Native V1 默认数据（142 道题 / 42 个发音词条）
+- [x] 旧 98 题默认库刷新自动迁移
 - [x] Legacy Cici Adapter（98 道 fixture）
 - [x] bilingual question / answer / sentence parser
 - [x] localStorage repository 与集中 keys
@@ -40,9 +42,9 @@
 - None
 
 ## Last verification
-- `npm test`: PASS — 6 files / 10 tests
+- `npm test`: PASS — 6 files / 11 tests
 - `npm run lint`: PASS — 0 errors / 0 warnings
 - `npm run build`: PASS — TypeScript + Vite production build
-- `npm run test:e2e`: PASS — 3 tests（完整数据链路 + 1440px + 390px）
+- `npm run test:e2e`: PASS — 4 tests（Native 数据链路 + 旧库刷新迁移 + 1440px + 390px）
 - Browser console errors: 0
-- Verified: 2026-08-13
+- Verified: 2026-08-14

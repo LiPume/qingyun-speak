@@ -1,7 +1,8 @@
 import { expect, test } from "@playwright/test";
 import path from "node:path";
 
-const fixture = path.resolve("fixtures/cici-original.json");
+const nativeFixture = path.resolve("fixtures/青云研语_QingyunSpeak_Native_V1.json");
+const legacyFixture = path.resolve("fixtures/cici-original.json");
 
 test("load → import → search → open → edit → reload → export", async ({ page }) => {
   const consoleErrors: string[] = [];
@@ -10,12 +11,13 @@ test("load → import → search → open → edit → reload → export", async
 
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "把思路，练成从容的表达。" })).toBeVisible();
+  await expect(page.getByText("142", { exact: true })).toBeVisible();
 
   await page.getByRole("link", { name: "数据与设置" }).click();
-  await page.locator('input[type="file"]').setInputFiles(fixture);
+  await page.locator('input[type="file"]').setInputFiles(nativeFixture);
   await expect(page.getByRole("heading", { name: /准备导入/ })).toBeVisible();
   await page.getByRole("button", { name: "确认覆盖并导入" }).click();
-  await expect(page.getByText("已导入 98 道题。")).toBeVisible();
+  await expect(page.getByText("已导入 142 道题。")).toBeVisible();
 
   await page.getByRole("link", { name: "题库", exact: true }).click();
   await page.getByPlaceholder("搜索问题、答案、关键词…").fill("AI agents");
@@ -34,6 +36,15 @@ test("load → import → search → open → edit → reload → export", async
   const download = await downloadPromise;
   expect(download.suggestedFilename()).toMatch(/^qingyun-speak-backup-\d{4}-\d{2}-\d{2}\.json$/);
   expect(consoleErrors).toEqual([]);
+});
+
+test("legacy default migrates to Native V1 after refresh", async ({ page }) => {
+  await page.goto("/#/settings");
+  await page.locator('input[type="file"]').setInputFiles(legacyFixture);
+  await page.getByRole("button", { name: "确认覆盖并导入" }).click();
+  await expect(page.getByText("98 道题 · 6 个发音词条")).toBeVisible();
+  await page.reload();
+  await expect(page.getByText("142 道题 · 42 个发音词条")).toBeVisible();
 });
 
 for (const viewport of [{ name: "desktop", width: 1440, height: 1000 }, { name: "mobile", width: 390, height: 844 }]) {

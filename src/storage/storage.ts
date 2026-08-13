@@ -9,6 +9,13 @@ export const STORAGE_KEYS = {
 
 export const DEFAULT_SPEECH_SETTINGS: SpeechSettings = { rate: 0.9 };
 
+export function isLegacyDefaultDataset(dataset: InterviewDataset): boolean {
+  return dataset.questions.length === 98 &&
+    dataset.questions[0]?.id === "1785238332773" &&
+    dataset.questions.at(-1)?.id === "1785238332870" &&
+    dataset.questions.every((question) => question.legacy !== undefined);
+}
+
 export function loadDataset(): InterviewDataset | null {
   const raw = localStorage.getItem(STORAGE_KEYS.dataset);
   if (!raw) return null;

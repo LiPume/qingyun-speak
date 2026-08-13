@@ -2,9 +2,12 @@
 
 一个面向英语复试与研究生面试准备的本地优先口语训练工作台。
 
+在线访问：[https://lipume.github.io/qingyun-speak/](https://lipume.github.io/qingyun-speak/)
+
 ## 功能
 
-- 98 道 Cici 旧题库自动适配，支持搜索、筛选、收藏、熟练度与完整 CRUD
+- 142 道 Native V1 默认题库与 42 个发音词条，支持搜索、筛选、收藏、熟练度与完整 CRUD
+- 保留 Cici 旧题库导入适配；旧默认库用户刷新后自动迁移到新版数据
 - Thinking → Phrase Blocks → Spoken Answer 渐进揭示
 - 浏览器原生 Web Speech API：单词、短语、句子、逐句连续播放
 - 90 / 60 / 45 秒三轮输出训练
@@ -31,6 +34,8 @@ npm run build
 ## GitHub Pages
 
 项目使用 `HashRouter` 和相对 `base`。推送到 GitHub 的 `main` 分支后，在仓库 Settings → Pages 中将 Source 设为 **GitHub Actions**，工作流会测试、构建并部署 `dist/`。
+
+部署完成后的固定地址：<https://lipume.github.io/qingyun-speak/>
 
 ## Safari 手工检查
 

@@ -1,7 +1,7 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
-import { adaptCiciDataset } from "../../adapters/ciciAdapter";
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { validateDataset } from "./validation";
 import type { InterviewDataset, InterviewQuestion, PronunciationItem } from "../../models/dataset";
-import { loadDataset, resetDataset as clearStoredDataset, saveDataset } from "../../storage/storage";
+import { isLegacyDefaultDataset, loadDataset, resetDataset as clearStoredDataset, saveDataset } from "../../storage/storage";
 
 interface DatasetContextValue {
   dataset: InterviewDataset | null;
@@ -18,15 +18,16 @@ interface DatasetContextValue {
 const DatasetContext = createContext<DatasetContextValue | null>(null);
 
 async function fetchDefaultDataset(): Promise<InterviewDataset> {
-  const response = await fetch(`${import.meta.env.BASE_URL}data/cici-default.json`);
+  const response = await fetch(`${import.meta.env.BASE_URL}data/default-dataset.json`);
   if (!response.ok) throw new Error("默认题库加载失败，请刷新页面重试。 ");
-  return adaptCiciDataset(await response.json());
+  return validateDataset(await response.json());
 }
 
 export function DatasetProvider({ children }: { children: ReactNode }) {
   const [dataset, setDataset] = useState<InterviewDataset | null>(loadDataset);
   const [loading, setLoading] = useState(() => dataset === null);
   const [error, setError] = useState<string | null>(null);
+  const migrateLegacyOnLoad = useRef(dataset !== null && isLegacyDefaultDataset(dataset));
 
   const persist = useCallback((next: InterviewDataset) => {
     const updated = { ...next, metadata: { ...next.metadata, updatedAt: new Date().toISOString() } };
@@ -49,7 +50,8 @@ export function DatasetProvider({ children }: { children: ReactNode }) {
   }, [persist]);
 
   useEffect(() => {
-    if (dataset) return;
+    if (dataset && !migrateLegacyOnLoad.current) return;
+    migrateLegacyOnLoad.current = false;
     let active = true;
     void fetchDefaultDataset()
       .then((next) => { if (active) persist(next); })

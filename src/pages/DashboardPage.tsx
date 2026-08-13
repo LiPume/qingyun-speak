@@ -26,7 +26,7 @@ export function DashboardPage() {
     <section className="stat-grid" aria-label="题库统计">{stats.map(([label, value]) => <article key={label}><strong>{value}</strong><span>{label}</span></article>)}</section>
     <section className="section-block"><div className="section-heading"><div><span className="eyebrow">QUICK START</span><h2>现在练什么？</h2></div></div>
       <div className="action-grid">
-        <Link to="/questions"><BookOpenText /><div><strong>浏览题库</strong><span>搜索、筛选与整理 98 道问题</span></div><ArrowRight /></Link>
+        <Link to="/questions"><BookOpenText /><div><strong>浏览题库</strong><span>搜索、筛选与整理 {dataset.questions.length} 道问题</span></div><ArrowRight /></Link>
         <button onClick={() => { const q = dataset.questions[Math.floor(Math.random() * dataset.questions.length)]; if (q) navigate(`/question/${q.id}`, { state: { training: true } }); }}><Shuffle /><div><strong>随机抽题</strong><span>只看题目，逐层揭示思路</span></div><ArrowRight /></button>
         <Link to="/pronunciation"><Speech /><div><strong>发音热身</strong><span>从个人与科研高频词开始</span></div><ArrowRight /></Link>
       </div>
