@@ -1,0 +1,25 @@
+import { Pencil, Plus, Search, Trash2, Volume2 } from "lucide-react";
+import { useMemo, useState, type FormEvent } from "react";
+import { LoadingState } from "../components/common/LoadingState";
+import { PageHeader } from "../components/common/PageHeader";
+import { SpeechControls } from "../components/speech/SpeechControls";
+import { useDataset } from "../features/dataset/DatasetContext";
+import { useSpeech } from "../hooks/useSpeech";
+import type { MasteryLevel, PronunciationCategory, PronunciationItem } from "../models/dataset";
+
+const groups: { key: PronunciationCategory; label: string; description: string }[] = [
+  { key: "Personal", label: "Personal · 个人必会", description: "院校、项目和个人经历里的高频表达" },
+  { key: "Research", label: "Research · 科研高频", description: "方法、实验与论文讨论的基础词" },
+  { key: "Paper", label: "Paper · 论文生词", description: "从阅读与题目里随手收集" },
+];
+function emptyItem(): PronunciationItem { return { id: crypto.randomUUID(), en: "", zh: "", category: "Personal", note: "", mastery: 0 }; }
+function PronunciationEditor({ initial, onSave, onCancel }: { initial: PronunciationItem; onSave: (item: PronunciationItem) => void; onCancel: () => void }) {
+  const [value, setValue] = useState(initial); function submit(e: FormEvent) { e.preventDefault(); if (value.en.trim()) onSave(value); }
+  return <div className="modal-layer" role="dialog" aria-modal="true" aria-label="发音词条编辑器"><form className="editor-panel narrow" onSubmit={submit}><header><h2>{initial.en ? "编辑发音词条" : "添加发音词条"}</h2><button type="button" className="text-link" onClick={onCancel}>关闭</button></header><div className="form-grid"><label className="span-2">English<input name="pronunciation-en" autoComplete="off" required value={value.en} onChange={(e) => setValue({ ...value, en: e.target.value })} /></label><label className="span-2">中文<input name="pronunciation-zh" autoComplete="off" value={value.zh} onChange={(e) => setValue({ ...value, zh: e.target.value })} /></label><label>分组<select name="pronunciation-category" value={value.category} onChange={(e) => setValue({ ...value, category: e.target.value as PronunciationCategory })}>{groups.map((x) => <option key={x.key} value={x.key}>{x.key}</option>)}</select></label><label>熟练度<select name="pronunciation-mastery" value={value.mastery} onChange={(e) => setValue({ ...value, mastery: Number(e.target.value) as MasteryLevel })}>{[0,1,2,3,4].map((x) => <option key={x} value={x}>{x} / 4</option>)}</select></label><label className="span-2">Note<textarea name="pronunciation-note" autoComplete="off" value={value.note} onChange={(e) => setValue({ ...value, note: e.target.value })} /></label></div><footer><button type="button" className="button secondary" onClick={onCancel}>取消</button><button className="button primary">保存词条</button></footer></form></div>;
+}
+export function PronunciationPage() {
+  const { dataset, loading, savePronunciation, deletePronunciation } = useDataset(); const speech = useSpeech(); const [search, setSearch] = useState(""); const [editing, setEditing] = useState<PronunciationItem | null>(null);
+  const items = useMemo(() => dataset?.pronunciation.filter((item) => `${item.en} ${item.zh} ${item.note}`.toLowerCase().includes(search.toLowerCase())) ?? [], [dataset, search]);
+  if (loading || !dataset) return <LoadingState />;
+  return <div className="page"><PageHeader eyebrow="PRONUNCIATION BANK" title="发音词库" description="把容易卡住的词，练成嘴边自然出现的声音。" actions={<button className="button primary" onClick={() => setEditing(emptyItem())}><Plus size={17} /> 添加词条</button>} /><div className="pronunciation-tools"><label className="search-field"><Search size={18} /><span className="sr-only">搜索发音词库</span><input name="pronunciation-search" autoComplete="off" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="搜索 English / 中文…" /></label><SpeechControls speech={speech} /></div><div className="pronunciation-groups">{groups.map((group) => { const entries = items.filter((x) => x.category === group.key); return <section key={group.key}><header><div><h2>{group.label}</h2><p>{group.description}</p></div><span>{entries.length}</span></header>{entries.length ? <div className="word-list">{entries.map((item) => <article key={item.id}><button className="word-main" onClick={() => speech.speak({ text: item.en, id: item.id })}><Volume2 size={18} /><span><strong>{item.en}</strong><small>{item.zh || "暂无释义"}</small></span></button><div className="mastery-dots" aria-label={`熟练度 ${item.mastery} / 4`}>{[1,2,3,4].map((x) => <i key={x} className={x <= item.mastery ? "filled" : ""} />)}</div><button className="icon-button" aria-label={`编辑 ${item.en}`} onClick={() => setEditing(item)}><Pencil size={16} /></button><button className="icon-button danger" aria-label={`删除 ${item.en}`} onClick={() => confirm(`确定删除 ${item.en}？`) && deletePronunciation(item.id)}><Trash2 size={16} /></button></article>)}</div> : <div className="group-empty">这个分组还没有匹配词条。</div>}</section>; })}</div>{editing && <PronunciationEditor initial={editing} onCancel={() => setEditing(null)} onSave={(item) => { savePronunciation(item); setEditing(null); }} />}</div>;
+}
