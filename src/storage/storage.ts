@@ -5,6 +5,7 @@ export const STORAGE_KEYS = {
   dataset: "qingyun.dataset.v1",
   settings: "qingyun.settings.v1",
   training: "qingyun.training.v1",
+  dailyPlan: "qingyun.daily-plan.v1",
 } as const;
 
 export const DEFAULT_SPEECH_SETTINGS: SpeechSettings = { rate: 0.9 };
