@@ -9,7 +9,7 @@
 
 ## M1
 - [x] Native Dataset Schema V1 与 runtime validation
-- [x] Native V1 默认数据（142 道题 / 42 个发音词条）
+- [x] Native V1 默认数据（170 道题 / 42 个发音词条）
 - [x] 旧 98 题默认库刷新自动迁移
 - [x] Legacy Cici Adapter（98 道 fixture）
 - [x] bilingual question / answer / sentence parser

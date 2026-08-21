@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "metadata": {
     "name": "青云研语 · 保研英语面试题库",
-    "updatedAt": "2026-08-13T16:26:05Z"
+    "updatedAt": "2026-08-21T08:29:39.009Z"
   },
   "questions": [
     {
@@ -13,9 +13,9 @@
         "zh": "请用英语简单介绍一下你自己"
       },
       "thinking": [
-        "1 min：身份 + 学业 + 一个代表项目 + 研究兴趣 + 读研目标。",
-        "3 min：在 1 min 主线上增加课程训练、项目为什么改变我、第二段研究兴趣、一个生活侧面。",
-        "5 min：再增加“我怎么学习 / 怎么做研究 / 项目之间如何连起来”，但仍然不报奖项流水账。"
+        "1min = 我是谁 + 我做过什么 + 我想研究什么。",
+        "2min = 我是谁 + 我有什么能力 + 我的研究兴趣是怎么形成的 + 我是什么样的人。",
+        "3min = 一个完整的“研究型学生画像”：学术基础 + 科研轨迹 + 代表性经历 + 研究兴趣 + 个人特质 + 读研目标。"
       ],
       "phrases": [
         {
@@ -33,16 +33,31 @@
       ],
       "answer": {
         "en": [
-          "Good morning, professors.",
-          "My name is Zhexuan Li, and I am an undergraduate student majoring in Computer Science at Hangzhou Dianzi University.",
+          "Good morning, professors. My name is Li Zhexuan and I am an undergraduate student majoring in Computer Science at Hangzhou Dianzi University.",
           "I rank within the top five percent of my major and have received several provincial and national awards.",
-          "During my undergraduate study, I worked on projects involving computer vision, robotics, and AI agents.",
-          "One representative project was an industrial repair robot.",
-          "I was responsible for visual detection, and I designed a lightweight attention module called LECA.",
-          "This work led to a first-author EI conference paper.",
-          "These experiences gradually moved my interest from a single model to complete intelligent systems.",
-          "I am now especially interested in AI agents, tool use, feedback, and system reliability.",
-          "I hope to receive more systematic research training in graduate school.",
+          "During my undergraduate study, I participated in projects involving computer vision, robotics, and LLM-based agents. One representative project was an industrial automotive repair robot. I was mainly responsible for bolt detection, and I later participated in building an agent workflow based on ReAct and tool calling. This work also led to my first-author EI conference paper.",
+          "These experiences gradually developed my interest in AI agents and intelligent systems, especially task planning, tool use, feedback, and collaboration.",
+          "I hope to receive systematic research training in graduate school and further explore this field. Thank you.",
+          "2 min｜展开版",
+          "Good morning, professors. My name is Li Zhexuan, and I am an undergraduate student majoring in Computer Science at Hangzhou Dianzi University.",
+          "I rank within the top five percent of my major and have built a solid foundation in computer science. I have also received several scholarships and awards during my undergraduate study.",
+          "My main research experience has been around computer vision, robotics, and intelligent agents. I have worked on projects in medical imaging, industrial robotics, and LLM-based agent systems.",
+          "One project that influenced me a lot was an automotive repair robot. I was initially responsible for bolt detection and developed a lightweight attention module to improve the detection of small targets. This work later became my first-author EI conference paper. After that, I also participated in building the agent workflow, where we connected planning, tool use, and execution feedback.",
+          "This experience gradually changed the way I think about AI. Instead of only improving a single model, I became more interested in how an intelligent system can perceive the environment, make decisions, use tools, and learn from feedback.",
+          "Outside academics, I have studied the violin for about fifteen years and served as a deputy leader of a student orchestra. I really enjoy working with others toward a common goal.",
+          "For graduate study, I hope to receive systematic research training and further explore AI agents and intelligent systems, especially in real-world applications.",
+          "Thank you.",
+          "3 min｜标准版",
+          "Good morning, professors. My name is Li Zhexuan, and I am an undergraduate student majoring in Computer Science at Hangzhou Dianzi University.",
+          "Academically, I rank within the top five percent of my major. During my undergraduate study, I have maintained a strong interest in computer science and artificial intelligence, and I have received several scholarships and competition awards.",
+          "My research experience has mainly focused on computer vision, robotics, and intelligent agents. I have participated in projects involving medical image analysis, industrial robots, and LLM-based agent systems. These experiences gave me opportunities not only to study algorithms, but also to work on real problems with real constraints.",
+          "One representative experience was an automotive repair robot. I was initially responsible for the visual detection module. Because the robot had to detect small bolts under complex lighting conditions, I analyzed the failure cases and developed a lightweight attention module to improve detection performance. The related work later became my first-author EI conference paper.",
+          "But what influenced me even more came later. I also participated in the agent side of the system. We turned several robot operations into callable tools and connected task planning, tool use, and execution feedback.",
+          "That experience gradually changed my research interest. At first, I mainly cared about how to make an individual model perform better. Later, I became more interested in a broader question: how can we build an intelligent system that can understand a task, make decisions, interact with tools, and adjust its behavior based on feedback?",
+          "This is why I am now particularly interested in AI agents and intelligent systems. I hope to explore these problems in real-world settings, especially systems that need perception, planning, and interaction.",
+          "I would also describe myself as someone who enjoys learning by doing. When I encounter a problem, I like to understand why it happens, test different solutions, and gradually improve the system. I think this habit has helped me a lot in both research and engineering projects.",
+          "Outside academics, music is another important part of my life. I have studied the violin for about fifteen years and served as a deputy leader of a student orchestra. Playing in an orchestra has taught me a lot about collaboration, communication, and working toward a common goal.",
+          "For graduate study, I hope to receive more systematic research training. In particular, I want to improve my ability to identify meaningful research problems, design convincing experiments, and eventually turn research ideas into intelligent systems that can work reliably in the real world.",
           "Thank you."
         ],
         "zh": [
@@ -56,9 +71,9 @@
         "自我情况类"
       ],
       "favorite": false,
-      "mastery": 0,
+      "mastery": 2,
       "createdAt": "2026-08-13T16:26:05Z",
-      "updatedAt": "2026-08-13T16:26:05Z"
+      "updatedAt": "2026-08-17T06:48:06.016Z"
     },
     {
       "id": "Q02",
@@ -87,19 +102,21 @@
       "answer": {
         "en": [
           "I am from Hangzhou, the capital of Zhejiang Province, and I am also studying there now.",
-          "Hangzhou is best known for West Lake, and places such as Leifeng Pagoda and Baoshi Hill are part of the city's landscape.",
+          "Hangzhou is best known for West Lake, and places like Hefang Street, the Grand Canal, and the Qiantang River are also very representative of the city.",
           "It is also famous for Longjing tea and local food such as Dongpo pork and xiaolongbao.",
           "At the same time, Hangzhou has a strong digital economy and a very active internet and technology industry.",
-          "I like this mix of tradition and innovation.",
-          "Growing up there has made me open to new things, but I also enjoy the slower side of the city, especially watching the sunrise near West Lake."
+          "I really like this mix of tradition and innovation.",
+          "Growing up in Hangzhou has made me energetic, adaptable, and open to change.",
+          "At the same time, it has also taught me to slow down, reflect, and recharge when I need to."
         ],
         "zh": [
           "我的家乡是杭州，也是浙江省省会，我现在也在杭州读大学。",
-          "杭州最有代表性的当然是西湖，雷峰塔、宝石山等景点也构成了很有辨识度的城市风景。",
+          "杭州最有代表性的当然是西湖，像河坊街、古运河和钱塘江也都很有杭州特色。",
           "杭州还以龙井茶和东坡肉、小笼包等地方饮食闻名。",
-          "与此同时，杭州的数字经济和互联网产业也很活跃。",
+          "与此同时，杭州的数字经济和互联网科技产业也很活跃。",
           "我很喜欢这种传统与创新并存的感觉。",
-          "对我来说，杭州既有很快的发展节奏，也有能让人慢下来的地方，比如去西湖边看日出。"
+          "在杭州长大让我变得更有活力、更能适应变化，也更愿意接受新事物。",
+          "同时，这座城市也让我学会在需要的时候慢下来、思考和恢复状态。"
         ]
       },
       "keywords": [],
@@ -112,7 +129,7 @@
       "favorite": false,
       "mastery": 0,
       "createdAt": "2026-08-13T16:26:05Z",
-      "updatedAt": "2026-08-13T16:26:05Z"
+      "updatedAt": "2026-08-18T07:43:16.750Z"
     },
     {
       "id": "Q03",
@@ -122,7 +139,7 @@
         "zh": "请介绍一下你的本科院校"
       },
       "thinking": [
-        "先让老师知道“杭电是什么学校” → 学科特色 → 实践/竞赛氛围 → 校园生活 → 最后再说我获得了什么"
+        "学校是谁 → 在哪、历史 → 学科特色 → 学校文化/培养特色 → 校园生活 → 最后一句自己的感受"
       ],
       "phrases": [
         {
@@ -140,13 +157,11 @@
       ],
       "answer": {
         "en": [
-          "I study at Hangzhou Dianzi University, usually called HDU.",
-          "It is a research-oriented university in Hangzhou and was founded in 1956.",
-          "The university is especially known for electronic information and computing-related fields, and it has a long connection with China's electronics and information industry.",
-          "Another feature of HDU is its practical culture.",
-          "Students are encouraged to join competitions, engineering projects, and research quite early.",
-          "Campus life is also active, with many student clubs and cultural activities.",
-          "I think HDU has given me both a solid academic foundation and many chances to try things outside the classroom, and I am very grateful for that experience."
+          "I study at Hangzhou Dianzi University, usually called HDU. It is located in Hangzhou and was founded in 1956.",
+          "HDU is especially known for its strengths in electronic information and computer science. It has also been closely connected with China's electronics and information industry throughout its history, and this background has shaped its strong engineering culture.",
+          "Another important feature of HDU is its emphasis on practical learning and innovation. Students are encouraged to take part in academic research，competitions and  engineering projects, so there are many opportunities to apply what we learn in class to real problems.",
+          "Campus life is also quite active, with many student clubs, sports activities, and cultural events.",
+          "Overall, HDU has provided me with a solid foundation in computer science and many opportunities to explore beyond the classroom. I think these experiences have prepared me well for further study."
         ],
         "zh": [
           "我就读于杭州电子科技大学，通常简称杭电。",
@@ -166,7 +181,7 @@
       "favorite": false,
       "mastery": 0,
       "createdAt": "2026-08-13T16:26:05Z",
-      "updatedAt": "2026-08-13T16:26:05Z"
+      "updatedAt": "2026-08-18T07:43:45.144Z"
     },
     {
       "id": "Q04",
@@ -176,7 +191,7 @@
         "zh": "请介绍你的优点和缺点"
       },
       "thinking": [
-        "优势有证据 → 缺点不致命 → 说明改进"
+        "两点优势 → 第一，坚持 → 学琴长期训练 + 科研遇难题不放弃 → 第二，务实 → 缺点，过早抠细节 → 用优先级和时间限制改进"
       ],
       "phrases": [
         {
@@ -194,19 +209,17 @@
       ],
       "answer": {
         "en": [
-          "One strength of mine is persistence.",
-          "I have played the violin for many years, and the same habit helps me in study and research.",
-          "When a problem is difficult, I can stay with it and improve step by step.",
-          "I also like turning ideas into working systems instead of stopping at a concept.",
-          "One weakness is that I sometimes spend too much time refining details before the main structure is fixed.",
-          "I am improving this by setting priorities and time limits, and by asking myself what is really necessary at each stage."
+          "I would describe my strengths in two aspects.",
+          "First, I am persistent. I have played the violin for many years, and this experience taught me the value of steady practice. The same habit also helps me in study and research. When I meet a difficult problem, I usually keep working on it step by step.",
+          "Second, I am quite practical and action-oriented. In research and projects, I usually focus on whether an idea can actually be implemented and tested, rather than only discussing it at the conceptual level.",
+          "As for my weakness, I sometimes focus too much on details before the overall structure is clear.",
+          "I am improving this by setting priorities and time limits before I start a task."
         ],
         "zh": [
-          "我的一个优势是比较能长期坚持。",
-          "我学小提琴很多年，这种习惯也影响了我的学习和科研：遇到难题时，我愿意一点一点把它做下去。",
-          "另外，我比较喜欢把想法真正做成可以运行的系统。",
-          "我的不足是有时会在整体框架还没完全确定时，就花太多时间打磨细节。",
-          "现在我会先定优先级和时间上限，并不断问自己“这个阶段最需要解决的是什么”。"
+          "我觉得我的优点主要有两个方面。",
+          "第一，我比较有坚持性。长期学习小提琴让我养成了持续练习、逐步改进的习惯，这种习惯也会带到学习和科研中。遇到比较困难的问题时，我通常愿意继续做下去，一步一步把问题解决。",
+          "第二，我做事情比较务实，尤其是在科研和项目中。我不仅会考虑一个想法在理论上是否合理，也会关注它能不能真正实现、验证，并根据实际结果继续改进。",
+          "至于缺点，我有时候会在整体框架还没有完全确定之前，就花比较多时间去打磨一些细节。现在我会通过提前确定优先级和时间限制来改善这个问题，先解决最重要的部分，再逐步完善细节。"
         ]
       },
       "keywords": [],
@@ -219,7 +232,7 @@
       "favorite": false,
       "mastery": 0,
       "createdAt": "2026-08-13T16:26:05Z",
-      "updatedAt": "2026-08-13T16:26:05Z"
+      "updatedAt": "2026-08-18T07:44:09.103Z"
     },
     {
       "id": "Q05",
@@ -304,11 +317,21 @@
       ],
       "answer": {
         "en": [
-          "My main hobby is the violin.",
-          "I have studied it for about fifteen years, so music has been part of my life for a long time.",
-          "What I enjoy most is the sound of the instrument and the way music can express emotions that are hard to put into words.",
+          "My main hobby is playing the violin.",
+          "I have learned it for about fifteen years.",
+          "So it has become an important part of my life.",
+          "I think the violin is a good way to express myself.",
+          "Sometimes it is hard to describe my feelings in words.",
+          "But I can express them through music.",
+          "I also enjoy practicing by myself.",
+          "It helps me relax and slow down.",
+          "And I like performing for other people.",
+          "When people enjoy my performance, I feel very happy.",
+          "It gives me a strong sense of achievement.",
           "I also enjoy ensemble playing.",
           "When different parts fit together, the result can be much richer than any single part alone.",
+          "It made me realize that music is not only about expressing yourself.",
+          "It is also about listening to others and finding your place in the whole piece.",
           "Besides music, I like running.",
           "It is a simple way for me to relax.",
           "When I feel stressed or mentally tired, going for a run usually helps me clear my mind."
@@ -331,7 +354,7 @@
       "favorite": false,
       "mastery": 0,
       "createdAt": "2026-08-13T16:26:05Z",
-      "updatedAt": "2026-08-13T16:26:05Z"
+      "updatedAt": "2026-08-18T07:44:52.765Z"
     },
     {
       "id": "Q07",
@@ -359,13 +382,16 @@
       ],
       "answer": {
         "en": [
-          "One of my most memorable experiences was a quantitative-investment competition.",
-          "What made it special was that finance was not a field I was familiar with at the beginning.",
-          "We had only a few days to understand the problem, read related materials, divide the work, and turn what we learned into a complete solution.",
-          "I had to learn very quickly and connect new domain knowledge with the technical skills I already had.",
-          "The process was intense, but our team kept discussing, testing, and improving the work until the deadline.",
-          "We eventually won a provincial first prize.",
-          "I remember it because it showed me that I can enter an unfamiliar field, find the key structure, and work with others under pressure."
+          "One of my most memorable experience was participating in a  quantitative investment competition.",
+          "I chose to take part because I was very interested in finance and quantitative investing.",
+          "However, I did not have much background in finance at that time.",
+          "In our team, I mainly worked on the quantitative models and coding.",
+          "My teammates from finance mainly read research reports and studied possible investment strategies.",
+          "Then we discussed the strategies together, tested different ideas, and kept improving our solution.",
+          "The competition was quite intensive, so I had to learn a lot of new financial knowledge in a short time.",
+          "In the end, we won a provincial first prize.",
+          "More importantly, this experience gave me more confidence in myself.",
+          "It showed me that even in an unfamiliar field, I can learn quickly, work with people from different backgrounds, and solve the problem step by step."
         ],
         "zh": [
           "我大学里一段很难忘的经历，是参加一次量化投资竞赛。",
@@ -385,7 +411,7 @@
       "favorite": false,
       "mastery": 0,
       "createdAt": "2026-08-13T16:26:05Z",
-      "updatedAt": "2026-08-13T16:26:05Z"
+      "updatedAt": "2026-08-18T07:45:20.872Z"
     },
     {
       "id": "Q08",
@@ -414,13 +440,18 @@
       "answer": {
         "en": [
           "The most unforgettable person I met at university is one of my research supervisors.",
-          "I remember a time when a music-recommendation project was not making progress.",
-          "I had tried several ideas and started to feel that the direction itself might be wrong.",
-          "My supervisor called me in the evening and helped me rethink the problem.",
-          "He suggested that I step back from the current method and explore a different modeling direction, including diffusion-based approaches.",
-          "What impressed me most was not one specific technique.",
-          "It was the way he helped me question my assumptions instead of blindly continuing.",
-          "That experience changed how I deal with research problems when I get stuck."
+          "I remember one experience very clearly.",
+          "At that time, I was working on a music recommendation project.",
+          "I had tried several ideas, but none of them worked well, so I felt quite lost.",
+          "One evening, my supervisor called me and discussed the problem with me.",
+          "I was only an undergraduate student, but he still took my ideas very seriously.",
+          "He listened patiently and helped me look at the problem from a different perspective.",
+          "He did not simply tell me what to do.",
+          "Instead, he asked me questions and encouraged me to rethink some of my assumptions.",
+          "What impressed me most was his patience and his attitude toward students.",
+          "Even when my ideas were immature, he was willing to discuss them with me seriously.",
+          "He gave me more confidence in doing research.",
+          "That is why he is still one of the most unforgettable people I have met at university."
         ],
         "zh": [
           "大学里让我印象最深的人，是我的一位科研导师。",
@@ -440,7 +471,7 @@
       "favorite": false,
       "mastery": 0,
       "createdAt": "2026-08-13T16:26:05Z",
-      "updatedAt": "2026-08-13T16:26:05Z"
+      "updatedAt": "2026-08-18T08:24:46.203Z"
     },
     {
       "id": "Q09",
@@ -450,7 +481,7 @@
         "zh": "你经常阅读什么类型的书"
       },
       "thinking": [
-        "先回答类型：技术书 → 举一本真实书 → 说明为什么技术书在AI时代仍有价值"
+        "技术类书籍 → 举一个真实例子 → 技术书能帮助我系统理解一个领域 → 和论文相比，书能把基础、经典方法和工程实践串起来 → 书凝聚了前人的知识和经验 → 虽然部分内容可能会过时，但基础仍然有价值 → AI时代更需要书来建立完整的知识框架"
       ],
       "phrases": [
         {
@@ -468,19 +499,22 @@
       ],
       "answer": {
         "en": [
-          "I mainly read technical books, especially books about AI systems and algorithms.",
-          "One example is Deep Learning Recommender Systems 2.",
-          "0 by Wang Zhe.",
-          "I like this kind of book because it gives me a more systematic view of how a field develops.",
-          "Papers are useful for learning specific new ideas, while a good technical book can connect basic concepts, classical methods, engineering practice, and newer directions in one structure.",
+          "I mainly read technical books, especially books about AI and algorithms.",
+          "One example is Deep Learning Recommender Systems 2.0 by Wang Zhe.",
+          "I like this kind of  book because they give me a more systematic view of how a field develops.",
+          "Papers are useful for learning specific new ideas, while a good technical book can connect basic concepts, classical methods, and engineering practice.",
+          "It also contains the knowledge and experience that researchers and engineers have built up over many years.",
+          "Some parts may become outdated, but the basic ideas and classical methods can still give me a solid foundation.",
           "I think this is especially valuable now, because AI tools can answer many isolated questions very quickly, but they do not automatically give you a coherent map of a field."
         ],
         "zh": [
-          "我平时主要读技术类书籍，尤其是人工智能系统和算法相关的书。",
+          "我平时主要阅读技术类书籍，尤其是人工智能和算法相关的书。",
           "比如王喆的《深度学习推荐系统2.0》。",
-          "我喜欢这类书，是因为它能够帮助我系统地看清一个领域是怎么发展起来的。",
-          "论文很适合了解某一个具体的新方法，但一本好的技术书可以把基础概念、经典方法、工程实践和新的方向串成一个结构。",
-          "我觉得这在AI时代反而更重要：AI可以很快回答很多零散问题，但它不会自动替你建立起一个完整的知识地图。"
+          "我喜欢这类书，因为它们可以让我更系统地了解一个领域是如何发展起来的。",
+          "论文很适合用来学习一些具体的新思想，而一本好的技术书可以把基础概念、经典方法和工程实践联系起来。",
+          "同时，书中也包含了很多研究人员和工程师多年积累下来的知识和经验。",
+          "虽然其中的一些内容可能会随着技术发展而过时，但基础思想和经典方法仍然可以帮助我打下扎实的基础。",
+          "我觉得这一点在现在尤其有价值，因为AI工具可以很快回答很多零散的问题，但它们并不会自动帮你建立起一个完整、连贯的领域知识框架。"
         ]
       },
       "keywords": [],
@@ -493,7 +527,7 @@
       "favorite": false,
       "mastery": 0,
       "createdAt": "2026-08-13T16:26:05Z",
-      "updatedAt": "2026-08-13T16:26:05Z"
+      "updatedAt": "2026-08-18T08:27:26.573Z"
     },
     {
       "id": "Q10",
@@ -503,7 +537,8 @@
         "zh": "请描述一次最难忘的竞赛经历"
       },
       "thinking": [
-        "和Q07共用同一段量化投资故事，减少记忆负担；这里只把“竞赛”与结果说得更明确"
+        "和Q07共用同一段量化投资故事，减少记忆负担；",
+        "讲述路线：为什么参加—我做了什么—怎么合作—最后收获什么"
       ],
       "phrases": [
         {
@@ -521,20 +556,28 @@
       ],
       "answer": {
         "en": [
-          "My most memorable competition was a quantitative-investment competition.",
-          "What made it special was that finance was not a field I was familiar with at the beginning.",
-          "We had only a few days to understand the problem, read related materials, divide the work, and turn what we learned into a complete solution.",
-          "I had to learn very quickly and connect new domain knowledge with the technical skills I already had.",
-          "The process was intense, but our team kept discussing, testing, and improving the work until the deadline.",
-          "We eventually won a provincial first prize.",
-          "I remember it because it showed me that I can enter an unfamiliar field, find the key structure, and work with others under pressure."
+          "My most memorable competition was a quantitative investment competition.",
+          "I chose to take part because I was very interested in finance and quantitative investing.",
+          "However, I did not have much background in finance at that time.",
+          "In our team, I mainly worked on the quantitative models and coding.",
+          "My teammates from finance mainly read research reports and studied possible investment strategies.",
+          "Then we discussed the strategies together, tested different ideas, and kept improving our solution.",
+          "The competition was quite intensive, so I had to learn a lot of new financial knowledge in a short time.",
+          "In the end, we won a provincial first prize.",
+          "More importantly, this experience gave me more confidence in myself.",
+          "It showed me that even in an unfamiliar field, I can learn quickly, work with people from different backgrounds, and solve the problem step by step."
         ],
         "zh": [
-          "我最难忘的一次竞赛是量化投资竞赛。",
-          "它特别的地方在于，金融并不是我一开始熟悉的领域，但我们只有几天时间理解问题、查资料、分工，并把学到的内容做成一套完整方案。",
-          "我需要快速进入新领域，把新的金融知识和自己已有的技术能力连接起来。",
-          "团队不断讨论、测试和改进，最后获得了省级一等奖。",
-          "对我来说，这次比赛真正训练的是快速学习、合作以及在时间压力下把一个陌生问题做完整的能力。"
+          "我最难忘的一次竞赛是一场量化投资竞赛。",
+          "我当时对金融和量化投资很感兴趣，所以选择参加了这个比赛。",
+          "但那时我的金融基础并不多。",
+          "在团队中，我主要负责量化模型和代码实现。",
+          "金融专业的队友主要负责阅读研报，并研究可能的投资策略。",
+          "然后我们会一起讨论策略、测试不同想法，并不断改进方案。",
+          "比赛节奏比较紧张，所以我需要在很短的时间内学习很多新的金融知识。",
+          "最后，我们获得了省级一等奖。",
+          "更重要的是，这次经历让我对自己更有信心了。",
+          "它让我意识到，即使面对一个陌生领域，我也能够快速学习、和不同背景的人合作，并一步一步把问题解决掉。"
         ]
       },
       "keywords": [],
@@ -545,9 +588,9 @@
         "自我情况类"
       ],
       "favorite": false,
-      "mastery": 0,
+      "mastery": 1,
       "createdAt": "2026-08-13T16:26:05Z",
-      "updatedAt": "2026-08-13T16:26:05Z"
+      "updatedAt": "2026-08-18T07:37:46.949Z"
     },
     {
       "id": "Q11",
@@ -557,7 +600,7 @@
         "zh": "你最喜欢的英语电影是什么"
       },
       "thinking": [
-        "直接说《星际穿越》 → 震撼在哪里 → 一个主题 → 为什么喜欢；不强行联系科研"
+        "《星际穿越》 → 第一印象很震撼 → 真正吸引我的是探索未知 → 面对不确定仍然寻找答案 → 科学与情感并存 → 为什么喜欢"
       ],
       "phrases": [
         {
@@ -575,20 +618,20 @@
       ],
       "answer": {
         "en": [
-          "My favorite English-language movie is Interstellar.",
-          "The first time I watched it, I was impressed by the scale of the story, the music, and the images of space.",
-          "But what stayed with me most was the combination of science and human emotion.",
-          "The film talks about exploration, time, uncertainty, and the choices people make when the future is unclear.",
-          "I also like that it takes scientific ideas seriously without turning the movie into a lecture.",
-          "For me, it is the kind of film that is both visually powerful and worth thinking about after it ends."
+          "My favorite English-language movie is Nolan's Interstellar.",
+          "The first time I watched it, I was deeply impressed by the music, the visual effects, and the huge scale of the story.",
+          "But what I like most about the movie is its spirit of exploration.",
+          "The characters face many things they cannot predict, but they still try to understand the unknown and find a way forward.",
+          "I also like how the film combines scientific ideas with human emotions, especially family, responsibility, and difficult choices.",
+          "For me, it is not only visually powerful, but also the kind of film that makes me keep thinking after it ends."
         ],
         "zh": [
           "我最喜欢的英语电影是《星际穿越》。",
-          "第一次看的时候，我对它的宏大叙事、音乐和太空画面印象非常深。",
-          "但后来真正留在我脑子里的，是它把科学想象和人的情感放在了一起。",
-          "电影里面有探索、时间、不确定性，也有人在看不清未来时仍然要作出选择。",
-          "我还很喜欢它认真对待科学概念，但又没有把电影拍成一堂科普课。",
-          "对我来说，它既很震撼，也是一部看完之后还会继续想一想的电影。"
+          "第一次看时，音乐、画面和宏大的故事给我很强的震撼。",
+          "但我真正喜欢的是它所体现的探索精神。",
+          "电影中的人物面对很多无法预测的事情，但他们仍然试图理解未知，并寻找继续前进的方法。",
+          "我也很喜欢它把科学想象和人的情感结合在一起，比如家庭、责任和艰难的选择。",
+          "对我来说，它不只是视觉上很震撼，也是一部看完之后还会让人继续思考的电影。"
         ]
       },
       "keywords": [],
@@ -601,7 +644,7 @@
       "favorite": false,
       "mastery": 0,
       "createdAt": "2026-08-13T16:26:05Z",
-      "updatedAt": "2026-08-13T16:26:05Z"
+      "updatedAt": "2026-08-17T07:27:51.983Z"
     },
     {
       "id": "Q12",
@@ -1099,17 +1142,15 @@
       "answer": {
         "en": [
           "One course that influenced me a lot was Operating Systems.",
-          "It was challenging because topics such as processes, memory management, and concurrency are closely connected.",
-          "I used mind maps to organize the concepts instead of memorizing them separately, and I achieved a good result in the course.",
-          "More importantly, it taught me to reason from mechanisms.",
-          "In system-level problems, a small misunderstanding can cause a large error, so the course also trained me to be more precise and systematic."
+          "It contains a lot of concepts, and some of them are quite abstract and easy to confuse, such as processes and threads, or paging and segmentation.",
+          "So I reorganized the whole course with mind maps and connected the concepts instead of memorizing them separately.",
+          "This not only helped me get a good grade, but also taught me to understand the overall structure before going into details."
         ],
         "zh": [
           "对我影响很大的一门课是操作系统。",
-          "它的难点在于进程、内存管理、并发等概念彼此联系很紧。",
-          "我后来用思维导图把知识结构串起来，而不是零散记忆，最后也取得了比较好的成绩。",
-          "更重要的是，这门课让我习惯从机制出发去理解问题。",
-          "系统层面的一个小误解可能造成很大的错误，所以它也训练了我的严谨性和系统思维。"
+          "这门课内容很多，而且有不少概念比较抽象、名字也很相近，比如进程和线程、分页和分段，很容易混淆。",
+          "后来我把整门课重新整理成了思维导图，把不同知识点之间的关系和区别串起来，而不是零散地记忆。",
+          "这个过程不仅让我最后取得了比较好的成绩，也让我养成了先梳理结构、再理解细节的学习习惯。"
         ]
       },
       "keywords": [],
@@ -1122,7 +1163,7 @@
       "favorite": false,
       "mastery": 0,
       "createdAt": "2026-08-13T16:26:05Z",
-      "updatedAt": "2026-08-13T16:26:05Z"
+      "updatedAt": "2026-08-16T14:25:29.240Z"
     },
     {
       "id": "Q22",
@@ -1196,7 +1237,7 @@
         "zh": "请介绍一个你熟悉的理论或机制"
       },
       "thinking": [
-        "用通道注意力：是什么 → 怎么做 → 为什么有用"
+        "是什么 → 怎么做 → 为什么有效 → 用在哪里 → 我的理解/实践"
       ],
       "phrases": [
         {
@@ -1214,17 +1255,18 @@
       ],
       "answer": {
         "en": [
-          "I am familiar with channel attention.",
-          "The basic idea is simple: not every feature channel is equally useful for the current input, so the network learns a weight for each channel.",
-          "A typical method first summarizes each channel, then models the relationship between channels, and finally rescales the feature maps.",
-          "In my work, I built on this idea and designed LECA.",
-          "I added lightweight statistical descriptors so the network could use richer information when calibrating channels, while keeping the parameter cost low."
+          "I am quite familiar with the attention mechanism.",
+          "The basic idea is that a model should focus more on important information instead of treating everything equally.",
+          "It usually calculates an importance score for different parts of the input and then uses these scores to combine the information.",
+          "Attention is a key component of Transformer models, and it is also widely used in computer vision and multimodal learning.",
+          "I have also used a similar idea in my own work, where I designed a channel attention module to help the model focus on more useful visual features."
         ],
         "zh": [
-          "我比较熟悉通道注意力。",
-          "它的核心思想很简单：对于当前输入，不同特征通道的重要性并不一样，因此网络学习一个权重去重新调整各通道。",
-          "典型方法会先对每个通道做信息汇总，再建模通道之间的关系，最后对特征图重新加权。",
-          "在我的工作里，我基于这个思路设计了LECA，引入轻量级统计描述，让网络在通道校准时利用更丰富的信息，同时尽量保持较低的参数开销。"
+          "我比较熟悉注意力机制。",
+          "核心思想是：不同信息的重要程度不同，模型应该把更多注意力放在重要信息上。",
+          "它通常先计算不同部分的重要性分数，再根据这些分数对信息进行加权组合。",
+          "注意力机制是 Transformer 的核心，也广泛用于视觉和多模态任务。",
+          "我自己的研究中也使用过类似思想，通过通道注意力让模型更关注有用的视觉特征。"
         ]
       },
       "keywords": [],
@@ -1237,7 +1279,7 @@
       "favorite": false,
       "mastery": 0,
       "createdAt": "2026-08-13T16:26:05Z",
-      "updatedAt": "2026-08-13T16:26:05Z"
+      "updatedAt": "2026-08-17T05:40:32.829Z"
     },
     {
       "id": "Q24",
@@ -4665,7 +4707,7 @@
       "answer": {
         "en": [
           "I think my greatest strength is persistence.",
-          "I have studied the violin for about fifteen years, so I am used to improving something slowly through repeated practice.",
+          "I have studied the violin for about fifteen years, so I am used to improving something steadly through repeated practice.",
           "The same habit also appears in my study and project work.",
           "When a problem is difficult, I usually do not give it up immediately.",
           "I try to break it down, find the part I can work on, and improve it step by step.",
@@ -4688,7 +4730,7 @@
       "favorite": false,
       "mastery": 0,
       "createdAt": "2026-08-13T16:26:05Z",
-      "updatedAt": "2026-08-13T16:26:05Z",
+      "updatedAt": "2026-08-16T10:26:23.368Z",
       "legacy": {
         "audioFile": "P07_04"
       }
@@ -6128,6 +6170,1549 @@
       "legacy": {
         "audioFile": "P10_06"
       }
+    },
+    {
+      "id": "Q143",
+      "category": "个人优势、能力与经历证明",
+      "question": {
+        "en": "What makes you different from other candidates?",
+        "zh": "你和其他候选人相比有什么不同？"
+      },
+      "thinking": [
+        "先给个人标签 → 第一，能连接模型与系统 → 第二，重视实现和验证 → 第三，稳定投入并善于协作。"
+      ],
+      "phrases": [
+        {
+          "id": "Q143-p1",
+          "en": "I would describe the difference in three points."
+        },
+        {
+          "id": "Q143-p2",
+          "en": "I do not stop at an idea."
+        },
+        {
+          "id": "Q143-p3",
+          "en": "What connects these experiences is..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "I would describe the difference in three points.",
+          "First, I can connect algorithms with complete systems. My experience covers computer vision, robotics, and AI agents, so I often think about how perception, planning, tools, and feedback work together.",
+          "Second, I am action-oriented. I do not stop at an idea. I try to implement it, design an experiment, and learn from the result.",
+          "Third, I can stay focused on long-term work. Fifteen years of violin training taught me that real improvement usually comes from steady practice.",
+          "So my main label would be a practical and persistent learner who can move between research ideas and real systems."
+        ],
+        "zh": [
+          "我觉得自己的不同主要体现在三点。",
+          "第一，我能够把算法和完整系统联系起来。我的经历涉及计算机视觉、机器人和AI Agent，所以我会关注感知、规划、工具和反馈怎样协同工作。",
+          "第二，我比较重视行动。我不会停在一个想法上，而是会尝试实现它、设计实验，再从结果中学习。",
+          "第三，我能够长期稳定地投入。十五年的小提琴训练让我明白，真正的进步通常来自持续练习。",
+          "所以如果用一个标签概括，我是一个务实、坚持，并且能够连接研究想法与真实系统的学习者。"
+        ]
+      },
+      "keywords": [
+        "practical",
+        "persistent",
+        "complete systems",
+        "experiments"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "个人优势、能力与经历证明"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q144",
+      "category": "个人优势、能力与经历证明",
+      "question": {
+        "en": "What can you contribute to our research group?",
+        "zh": "你能给我们的课题组带来什么？"
+      },
+      "thinking": [
+        "从“我能贡献什么”回答 → 第一，技术与工程经验 → 第二，可靠的实验执行 → 第三，团队协作与知识共享。"
+      ],
+      "phrases": [
+        {
+          "id": "Q144-p1",
+          "en": "I believe I can contribute in three ways."
+        },
+        {
+          "id": "Q144-p2",
+          "en": "I can turn an idea into..."
+        },
+        {
+          "id": "Q144-p3",
+          "en": "I would also contribute as a reliable teammate."
+        }
+      ],
+      "answer": {
+        "en": [
+          "I believe I can contribute in three ways.",
+          "First, I can bring hands-on experience in computer vision, robotics, and AI agents. This may help with projects that need both model development and system integration.",
+          "Second, I can contribute reliable experimental work. I am used to analyzing failure cases, implementing ideas, and comparing results instead of only reporting the best outcome.",
+          "Third, I would contribute as a responsible teammate. I can document my work, communicate problems early, and share reusable code or notes with others.",
+          "I still have much to learn, but I can contribute through steady execution while growing into more independent research."
+        ],
+        "zh": [
+          "我认为自己可以从三个方面作出贡献。",
+          "第一，我能带来计算机视觉、机器人和AI Agent方面的实践经验，这可能适合同时需要模型开发和系统集成的项目。",
+          "第二，我可以承担可靠的实验工作。我习惯分析失败案例、实现想法并比较结果，而不是只汇报最好的结果。",
+          "第三，我会做一个负责任的队友。我会记录工作、尽早沟通问题，并和其他成员共享可复用的代码或笔记。",
+          "我还有很多需要学习，但我可以先通过稳定的执行作出贡献，再逐步成长为更独立的研究者。"
+        ]
+      },
+      "keywords": [
+        "system integration",
+        "experiments",
+        "failure cases",
+        "teamwork"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "个人优势、能力与经历证明"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q145",
+      "category": "团队合作、领导力与沟通",
+      "question": {
+        "en": "What would your classmates or teammates say about you?",
+        "zh": "你的同学或队友会怎样评价你？"
+      },
+      "thinking": [
+        "不要只堆形容词 → 第一，可靠 → 第二，遇事冷静并拆解问题 → 第三，愿意倾听和补位。"
+      ],
+      "phrases": [
+        {
+          "id": "Q145-p1",
+          "en": "I think they would mention three things."
+        },
+        {
+          "id": "Q145-p2",
+          "en": "If I take responsibility for a task..."
+        },
+        {
+          "id": "Q145-p3",
+          "en": "I am also willing to step in when..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "I think they would mention three things.",
+          "First, they would say I am reliable. If I take responsibility for a task, I keep track of it and report progress clearly.",
+          "Second, they may say I stay calm when a project runs into trouble. I usually break the problem down and focus on the next useful step.",
+          "Third, they would probably describe me as cooperative. I listen to different views and I am willing to step in when the team needs support.",
+          "I think these qualities come from both my project experience and many years of ensemble playing."
+        ],
+        "zh": [
+          "我觉得他们可能会提到三点。",
+          "第一，他们会觉得我比较可靠。如果我负责一项任务，我会持续跟进，并清楚汇报进展。",
+          "第二，他们可能会觉得我遇到项目问题时比较冷静。我通常会先拆解问题，再关注下一步真正能推进的事情。",
+          "第三，他们可能会说我比较愿意合作。我会听取不同观点，也愿意在团队需要时主动补位。",
+          "我觉得这些特点既来自项目经历，也来自多年的合奏经验。"
+        ]
+      },
+      "keywords": [
+        "reliable",
+        "calm",
+        "cooperative",
+        "progress"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "B 会框架",
+        "团队合作、领导力与沟通"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q146",
+      "category": "个人优势、能力与经历证明",
+      "question": {
+        "en": "What is one thing you want to improve about yourself?",
+        "zh": "你现在最希望改善自己哪一点？"
+      },
+      "thinking": [
+        "改善点要真实且可行动 → 更早识别最重要的问题 → 说明过去倾向 → 给出三步改进方法。"
+      ],
+      "phrases": [
+        {
+          "id": "Q146-p1",
+          "en": "One thing I want to improve is..."
+        },
+        {
+          "id": "Q146-p2",
+          "en": "I sometimes start solving too early..."
+        },
+        {
+          "id": "Q146-p3",
+          "en": "I am improving this in three steps."
+        }
+      ],
+      "answer": {
+        "en": [
+          "One thing I want to improve is my ability to identify the most important question before I start working.",
+          "I am comfortable with implementation, so I sometimes start solving too early and spend time on details that are not central.",
+          "I am improving this in three steps.",
+          "First, I write down the main question and my assumptions. Second, I decide what evidence would change my mind. Third, I set a time limit for the first experiment.",
+          "This helps me move from simply working hard to working on the right problem."
+        ],
+        "zh": [
+          "我现在最希望改善的是：在开始做事之前，更早识别出最重要的问题。",
+          "我比较擅长实现，所以有时会过早开始解决问题，把时间花在并不关键的细节上。",
+          "我现在用三个步骤改进。",
+          "第一，先写下核心问题和自己的假设；第二，明确什么证据会改变我的判断；第三，给第一个实验设置时间限制。",
+          "这能帮助我从单纯努力，逐渐转向把努力放在正确的问题上。"
+        ]
+      },
+      "keywords": [
+        "important question",
+        "assumptions",
+        "evidence",
+        "time limit"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "个人优势、能力与经历证明"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q147",
+      "category": "个人优势、能力与经历证明",
+      "question": {
+        "en": "What kind of student do you think you are?",
+        "zh": "你觉得自己是一个怎样的学生？"
+      },
+      "thinking": [
+        "三个标签 → 自主、结构化、从实践中学习 → 用操作系统和项目经历落地。"
+      ],
+      "phrases": [
+        {
+          "id": "Q147-p1",
+          "en": "I would describe myself with three words."
+        },
+        {
+          "id": "Q147-p2",
+          "en": "I learn better when I can..."
+        },
+        {
+          "id": "Q147-p3",
+          "en": "These habits make me..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "I would describe myself as self-driven, structured, and practical.",
+          "First, I do not like to wait until everything is taught in class. If I need new knowledge for a project, I try to learn it independently.",
+          "Second, I prefer to build a clear structure before memorizing details. This approach helped me a lot in courses such as Operating Systems.",
+          "Third, I learn better when I can test an idea in practice and examine where it fails.",
+          "These habits make me a student who learns actively and improves through evidence."
+        ],
+        "zh": [
+          "我会用三个词形容自己：主动、有结构、重实践。",
+          "第一，我不喜欢等到所有知识都由课堂教给我。项目需要新知识时，我会尝试自主学习。",
+          "第二，我倾向于先建立清楚的结构，再记忆细节。这种方法在操作系统等课程中帮助很大。",
+          "第三，我更喜欢通过实践检验一个想法，并观察它在哪里失败。",
+          "这些习惯让我成为一个主动学习、根据证据持续改进的学生。"
+        ]
+      },
+      "keywords": [
+        "self-driven",
+        "structured",
+        "practical",
+        "evidence"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "个人优势、能力与经历证明"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q148",
+      "category": "困难、压力、失败与问题解决",
+      "question": {
+        "en": "What do you do when you realize you are wrong?",
+        "zh": "当你发现自己的判断错了，你会怎么办？"
+      },
+      "thinking": [
+        "科研式纠错 → 第一，承认并停止防守 → 第二，定位错误假设和证据 → 第三，修正、沟通并留下规则。"
+      ],
+      "phrases": [
+        {
+          "id": "Q148-p1",
+          "en": "I try to respond in three steps."
+        },
+        {
+          "id": "Q148-p2",
+          "en": "I separate the result from my ego."
+        },
+        {
+          "id": "Q148-p3",
+          "en": "I update both the conclusion and the process."
+        }
+      ],
+      "answer": {
+        "en": [
+          "I try to respond in three steps.",
+          "First, I acknowledge the mistake and stop defending the original answer. I try to separate the result from my ego.",
+          "Second, I locate the wrong assumption or missing evidence. This is important because changing the conclusion without understanding the cause may lead to the same mistake again.",
+          "Third, I correct the work and tell the people affected as early as possible.",
+          "Finally, I record what I learned, so I update both the conclusion and the process that produced it."
+        ],
+        "zh": [
+          "我通常会分三步处理。",
+          "第一，承认错误，并停止为原来的答案辩护。我会尽量把结果和个人情绪分开。",
+          "第二，找到错误的假设或缺失的证据。因为如果只改结论、不理解原因，同样的错误还可能再次发生。",
+          "第三，修正工作，并尽早告诉受到影响的人。",
+          "最后，我会记录这次教训，同时更新结论和产生这个结论的过程。"
+        ]
+      },
+      "keywords": [
+        "acknowledge",
+        "assumption",
+        "evidence",
+        "correct"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "困难、压力、失败与问题解决"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q149",
+      "category": "个人背景、兴趣、人物与价值观",
+      "question": {
+        "en": "How do you make an important decision?",
+        "zh": "面对重要选择时，你通常如何做决定？"
+      },
+      "thinking": [
+        "决策框架 → 第一，明确标准 → 第二，收集证据和比较选项 → 第三，用小实验降低不确定性并承担选择。"
+      ],
+      "phrases": [
+        {
+          "id": "Q149-p1",
+          "en": "I usually make an important decision in three steps."
+        },
+        {
+          "id": "Q149-p2",
+          "en": "I separate facts from assumptions."
+        },
+        {
+          "id": "Q149-p3",
+          "en": "When possible, I run a small test first."
+        }
+      ],
+      "answer": {
+        "en": [
+          "I usually make an important decision in three steps.",
+          "First, I define the main goal and the criteria. This prevents me from choosing only by short-term emotion.",
+          "Second, I collect information, compare the options, and separate facts from assumptions. I also ask people with relevant experience for advice.",
+          "Third, when possible, I run a small test first. A course, a project, or a short research task can reveal more than imagination alone.",
+          "After that, I make the best decision with the available evidence and take responsibility for it."
+        ],
+        "zh": [
+          "面对重要选择时，我通常分三步决定。",
+          "第一，明确主要目标和判断标准，避免只根据短期情绪作选择。",
+          "第二，收集信息、比较选项，并区分事实和假设。我也会向有相关经验的人请教。",
+          "第三，如果条件允许，我会先做一个小规模尝试。一门课程、一个项目或一段短期科研任务，往往比单纯想象更能说明问题。",
+          "之后，我会根据当时能获得的证据作出选择，并为这个选择负责。"
+        ]
+      },
+      "keywords": [
+        "criteria",
+        "evidence",
+        "assumptions",
+        "small test"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "B 会框架",
+        "个人背景、兴趣、人物与价值观"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q150",
+      "category": "院校、学院与导师匹配",
+      "question": {
+        "en": "What do you expect from your supervisor, and what should your supervisor expect from you?",
+        "zh": "你希望导师给你什么？导师又可以期待你做到什么？"
+      },
+      "thinking": [
+        "双向关系 → 我期待研究判断、标准和反馈 → 导师可以期待准备、可靠执行、诚实沟通和逐步独立。"
+      ],
+      "phrases": [
+        {
+          "id": "Q150-p1",
+          "en": "I see this as a two-way relationship."
+        },
+        {
+          "id": "Q150-p2",
+          "en": "From my supervisor, I hope to receive..."
+        },
+        {
+          "id": "Q150-p3",
+          "en": "In return, my supervisor can expect me to..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "I see this as a two-way relationship.",
+          "From my supervisor, I hope to receive guidance in three areas: choosing meaningful questions, maintaining rigorous research standards, and getting direct feedback when my reasoning is weak.",
+          "I do not expect the supervisor to solve every problem for me.",
+          "In return, my supervisor can expect me to prepare before meetings, carry out agreed tasks reliably, and report both progress and problems honestly.",
+          "Most importantly, I should become more independent over time while keeping communication open."
+        ],
+        "zh": [
+          "我认为这是一种双向关系。",
+          "我希望导师主要在三个方面给予指导：帮助我选择有意义的问题、建立严谨的研究标准，以及在我的推理有问题时给出直接反馈。",
+          "我并不期待导师替我解决每一个问题。",
+          "相应地，导师可以期待我在讨论前做好准备、可靠完成约定的任务，并诚实汇报进展和问题。",
+          "最重要的是，我应该在保持坦诚沟通的同时，逐渐成长为更独立的研究者。"
+        ]
+      },
+      "keywords": [
+        "two-way relationship",
+        "research standards",
+        "feedback",
+        "independence"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "院校、学院与导师匹配"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q151",
+      "category": "机器学习基本功",
+      "question": {
+        "en": "What is a loss function?",
+        "zh": "什么是损失函数？"
+      },
+      "thinking": [
+        "定义 → 第一，衡量预测与目标的差距 → 第二，为优化提供目标 → 第三，选择取决于任务，低训练损失不等于泛化好。"
+      ],
+      "phrases": [
+        {
+          "id": "Q151-p1",
+          "en": "A loss function measures..."
+        },
+        {
+          "id": "Q151-p2",
+          "en": "It gives training a clear objective."
+        },
+        {
+          "id": "Q151-p3",
+          "en": "The choice of loss depends on..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "A loss function measures how different a model's predictions are from the target values.",
+          "First, it turns prediction error into a numerical value, where a lower value usually means a better fit.",
+          "Second, it gives training a clear objective. The optimizer changes the model parameters to reduce this value.",
+          "Third, the choice of loss depends on the task. Mean squared error is common for regression, while cross-entropy is common for classification.",
+          "A low training loss is not enough by itself. We also need validation performance to judge generalization."
+        ],
+        "zh": [
+          "损失函数用来衡量模型预测和真实目标之间的差距。",
+          "第一，它把预测误差变成一个数值，通常数值越低，说明拟合越好。",
+          "第二，它为训练提供明确目标，优化器会调整模型参数来减小这个数值。",
+          "第三，损失函数的选择取决于任务。回归常用均方误差，分类常用交叉熵。",
+          "但训练损失低并不代表模型一定能泛化，还要观察验证集表现。"
+        ]
+      },
+      "keywords": [
+        "prediction error",
+        "objective",
+        "optimization",
+        "generalization"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "机器学习基本功"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q152",
+      "category": "机器学习基本功",
+      "question": {
+        "en": "What is gradient descent?",
+        "zh": "什么是梯度下降？"
+      },
+      "thinking": [
+        "定义 → 计算梯度 → 沿负梯度更新 → 学习率控制步长 → 迭代逼近较小损失。"
+      ],
+      "phrases": [
+        {
+          "id": "Q152-p1",
+          "en": "Gradient descent is an iterative optimization method."
+        },
+        {
+          "id": "Q152-p2",
+          "en": "The gradient points in the direction of..."
+        },
+        {
+          "id": "Q152-p3",
+          "en": "The learning rate controls..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "Gradient descent is an iterative optimization method used to reduce a loss function.",
+          "First, we calculate the gradient of the loss with respect to the model parameters.",
+          "Second, because the gradient points toward the fastest increase, we update the parameters in the opposite direction.",
+          "Third, the learning rate controls the size of each update.",
+          "By repeating these steps, the model moves toward parameters with lower loss, although it is not always guaranteed to reach the global minimum."
+        ],
+        "zh": [
+          "梯度下降是一种通过迭代减小损失函数的优化方法。",
+          "第一，计算损失相对于模型参数的梯度。",
+          "第二，因为梯度指向增长最快的方向，所以参数沿相反方向更新。",
+          "第三，学习率控制每次更新的步长。",
+          "不断重复这些步骤，模型会走向损失更低的参数，但并不一定能到达全局最优。"
+        ]
+      },
+      "keywords": [
+        "gradient",
+        "opposite direction",
+        "learning rate",
+        "iteration"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "机器学习基本功"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q153",
+      "category": "机器学习基本功",
+      "question": {
+        "en": "What is backpropagation?",
+        "zh": "什么是反向传播？"
+      },
+      "thinking": [
+        "定义 → 前向计算损失 → 用链式法则从输出向输入计算梯度 → 优化器再更新参数；反向传播不是优化器。"
+      ],
+      "phrases": [
+        {
+          "id": "Q153-p1",
+          "en": "Backpropagation is an efficient way to..."
+        },
+        {
+          "id": "Q153-p2",
+          "en": "It applies the chain rule..."
+        },
+        {
+          "id": "Q153-p3",
+          "en": "It is important to distinguish..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "Backpropagation is an efficient way to compute gradients in a neural network.",
+          "First, the network performs a forward pass and calculates the loss.",
+          "Second, backpropagation applies the chain rule from the output layer backward, so each parameter receives its contribution to the error.",
+          "Third, an optimizer such as SGD or Adam uses these gradients to update the parameters.",
+          "It is important to distinguish the two: backpropagation computes gradients, while the optimizer decides how to use them."
+        ],
+        "zh": [
+          "反向传播是在神经网络中高效计算梯度的方法。",
+          "第一，网络先完成前向传播并计算损失。",
+          "第二，反向传播从输出层向前应用链式法则，让每个参数得到自己对误差的贡献。",
+          "第三，SGD或Adam等优化器再利用这些梯度更新参数。",
+          "两者需要区分：反向传播负责计算梯度，优化器负责决定怎样使用梯度。"
+        ]
+      },
+      "keywords": [
+        "forward pass",
+        "chain rule",
+        "gradients",
+        "optimizer"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "机器学习基本功"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q154",
+      "category": "机器学习基本功",
+      "question": {
+        "en": "What is overfitting? How can we reduce it?",
+        "zh": "什么是过拟合？怎么解决？"
+      },
+      "thinking": [
+        "现象 → 训练集好、未见数据差 → 用训练/验证差距识别 → 数据、约束、训练策略三类解决。"
+      ],
+      "phrases": [
+        {
+          "id": "Q154-p1",
+          "en": "Overfitting happens when..."
+        },
+        {
+          "id": "Q154-p2",
+          "en": "A common sign is a growing gap between..."
+        },
+        {
+          "id": "Q154-p3",
+          "en": "We can reduce it in three main ways."
+        }
+      ],
+      "answer": {
+        "en": [
+          "Overfitting happens when a model learns the training data too specifically and performs poorly on unseen data.",
+          "A common sign is very low training loss but much worse validation loss.",
+          "We can reduce it in three main ways.",
+          "First, improve the data with more samples or suitable augmentation. Second, constrain the model with weight decay, dropout, or a simpler architecture. Third, use a validation set and early stopping.",
+          "The goal is not the lowest possible training loss, but good generalization to new data."
+        ],
+        "zh": [
+          "过拟合是指模型把训练数据学得过于具体，导致在未见数据上表现较差。",
+          "一个常见信号是训练损失很低，但验证损失明显更高。",
+          "解决方法主要有三类。",
+          "第一，增加数据或采用合适的数据增强；第二，用权重衰减、dropout或更简单的模型限制复杂度；第三，使用验证集和早停。",
+          "目标不是让训练损失尽可能低，而是让模型对新数据具有良好的泛化能力。"
+        ]
+      },
+      "keywords": [
+        "unseen data",
+        "validation loss",
+        "regularization",
+        "generalization"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "机器学习基本功"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q155",
+      "category": "机器学习基本功",
+      "question": {
+        "en": "What is the difference between overfitting and underfitting?",
+        "zh": "过拟合和欠拟合有什么区别？"
+      },
+      "thinking": [
+        "对比训练集和验证集 → 欠拟合是两边都差 → 过拟合是训练好验证差 → 改进方向相反。"
+      ],
+      "phrases": [
+        {
+          "id": "Q155-p1",
+          "en": "The key difference is..."
+        },
+        {
+          "id": "Q155-p2",
+          "en": "An underfit model performs poorly on..."
+        },
+        {
+          "id": "Q155-p3",
+          "en": "The remedies are usually different."
+        }
+      ],
+      "answer": {
+        "en": [
+          "The key difference is whether the model has learned too little or learned the training data too specifically.",
+          "First, an underfit model performs poorly on both the training set and the validation set. It may be too simple, poorly trained, or missing useful features.",
+          "Second, an overfit model performs well on the training set but poorly on the validation set.",
+          "Third, the remedies are usually different. Underfitting may require more capacity, better features, or longer training, while overfitting often requires more data or stronger regularization.",
+          "Training and validation curves help us distinguish the two."
+        ],
+        "zh": [
+          "两者的关键区别是：模型学得太少，还是把训练数据学得过于具体。",
+          "第一，欠拟合模型在训练集和验证集上都表现较差，原因可能是模型太简单、训练不足或缺少有效特征。",
+          "第二，过拟合模型在训练集上表现很好，但在验证集上较差。",
+          "第三，两者的改进方向通常不同。欠拟合可能需要更强的模型、更好的特征或更充分的训练；过拟合则常需要更多数据或更强正则化。",
+          "观察训练曲线和验证曲线可以帮助区分两者。"
+        ]
+      },
+      "keywords": [
+        "underfitting",
+        "overfitting",
+        "training curve",
+        "validation curve"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "机器学习基本功"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q156",
+      "category": "机器学习基本功",
+      "question": {
+        "en": "What is an activation function? Why do we need it?",
+        "zh": "什么是激活函数？为什么需要它？"
+      },
+      "thinking": [
+        "定义 → 作用于神经元加权结果 → 引入非线性 → 没有它，多层线性网络仍等价于单层线性变换。"
+      ],
+      "phrases": [
+        {
+          "id": "Q156-p1",
+          "en": "An activation function transforms..."
+        },
+        {
+          "id": "Q156-p2",
+          "en": "Its main purpose is to introduce nonlinearity."
+        },
+        {
+          "id": "Q156-p3",
+          "en": "Without nonlinear activations..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "An activation function transforms the weighted output of a neuron before passing it to the next layer.",
+          "Its main purpose is to introduce nonlinearity.",
+          "Without nonlinear activations, stacking many linear layers is still equivalent to one linear transformation, so the network cannot model complex relationships.",
+          "Different activation functions also affect gradient flow and output range.",
+          "Common examples include ReLU in hidden layers, sigmoid for some binary outputs, and softmax for multi-class probabilities."
+        ],
+        "zh": [
+          "激活函数会对神经元的加权输出进行变换，再把结果传给下一层。",
+          "它最主要的作用是引入非线性。",
+          "如果没有非线性激活，多层线性层仍然等价于一次线性变换，网络就无法表示复杂关系。",
+          "不同激活函数也会影响梯度传播和输出范围。",
+          "常见例子包括隐藏层中的ReLU、部分二分类输出中的sigmoid，以及多分类概率中的softmax。"
+        ]
+      },
+      "keywords": [
+        "weighted output",
+        "nonlinearity",
+        "gradient flow",
+        "output range"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "机器学习基本功"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q157",
+      "category": "机器学习基本功",
+      "question": {
+        "en": "What is ReLU? Why is it widely used?",
+        "zh": "什么是ReLU？为什么它被广泛使用？"
+      },
+      "thinking": [
+        "公式 → 负数置零、正数保留 → 计算简单、正区间梯度稳定 → 边界是 dying ReLU。"
+      ],
+      "phrases": [
+        {
+          "id": "Q157-p1",
+          "en": "ReLU stands for..."
+        },
+        {
+          "id": "Q157-p2",
+          "en": "It is widely used for three reasons."
+        },
+        {
+          "id": "Q157-p3",
+          "en": "One limitation is..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "ReLU stands for Rectified Linear Unit, and its function is max of zero and x.",
+          "It sets negative inputs to zero and keeps positive inputs unchanged.",
+          "It is widely used for three reasons: it is simple to compute, it introduces nonlinearity, and its gradient on the positive side helps reduce the vanishing-gradient problem.",
+          "It can also produce sparse activations because many outputs become zero.",
+          "One limitation is the dying ReLU problem, where a neuron may stay inactive if it keeps receiving negative inputs."
+        ],
+        "zh": [
+          "ReLU是Rectified Linear Unit，也就是修正线性单元，函数形式是max(0, x)。",
+          "它把负输入变成零，并保留正输入。",
+          "它被广泛使用主要有三个原因：计算简单、能够引入非线性，而且正区间的梯度有助于减轻梯度消失。",
+          "由于很多输出会变成零，它还可以产生稀疏激活。",
+          "它的一个局限是dying ReLU，也就是神经元持续收到负输入后可能长期不再激活。"
+        ]
+      },
+      "keywords": [
+        "max(0, x)",
+        "nonlinearity",
+        "vanishing gradient",
+        "dying ReLU"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "机器学习基本功"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q158",
+      "category": "机器学习基本功",
+      "question": {
+        "en": "What is the difference between classification and regression?",
+        "zh": "分类和回归有什么区别？"
+      },
+      "thinking": [
+        "先看目标类型 → 分类预测离散类别 → 回归预测连续数值 → 输出、损失和评价指标不同。"
+      ],
+      "phrases": [
+        {
+          "id": "Q158-p1",
+          "en": "The main difference is the type of target."
+        },
+        {
+          "id": "Q158-p2",
+          "en": "Classification predicts..."
+        },
+        {
+          "id": "Q158-p3",
+          "en": "This difference affects..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "The main difference is the type of target the model predicts.",
+          "First, classification predicts a discrete category, such as spam or not spam, or one class among several classes.",
+          "Second, regression predicts a continuous value, such as temperature, price, or remaining time.",
+          "Third, this difference affects the output layer, loss function, and evaluation metric. Classification may use cross-entropy and F1-score, while regression may use mean squared error and mean absolute error.",
+          "So the first question should be whether the target is categorical or continuous."
+        ],
+        "zh": [
+          "两者最主要的区别是模型要预测的目标类型。",
+          "第一，分类预测离散类别，比如垃圾邮件或非垃圾邮件，或者多个类别中的一个。",
+          "第二，回归预测连续数值，比如温度、价格或剩余时间。",
+          "第三，这个区别会影响输出层、损失函数和评价指标。分类可以使用交叉熵和F1，回归可以使用均方误差和平均绝对误差。",
+          "所以首先要判断预测目标是类别还是连续数值。"
+        ]
+      },
+      "keywords": [
+        "categorical",
+        "continuous",
+        "loss function",
+        "metric"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "机器学习基本功"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q159",
+      "category": "机器学习基本功",
+      "question": {
+        "en": "What is cross-entropy loss?",
+        "zh": "什么是交叉熵损失？"
+      },
+      "thinking": [
+        "定义 → 比较真实分布与预测概率 → 单标签时等价于负对数正确类概率 → 对自信但错误的预测惩罚更重。"
+      ],
+      "phrases": [
+        {
+          "id": "Q159-p1",
+          "en": "Cross-entropy measures the difference between..."
+        },
+        {
+          "id": "Q159-p2",
+          "en": "For a one-hot target..."
+        },
+        {
+          "id": "Q159-p3",
+          "en": "It strongly penalizes..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "Cross-entropy loss measures the difference between the target distribution and the probabilities predicted by a model.",
+          "For a single-label classification problem with a one-hot target, it becomes the negative logarithm of the probability assigned to the correct class.",
+          "If the model gives the correct class high probability, the loss is small.",
+          "If it is confidently wrong, the loss becomes large, so cross-entropy strongly penalizes confident mistakes.",
+          "In multi-class classification, it is commonly used with softmax probabilities, although many libraries combine softmax and cross-entropy in one stable operation."
+        ],
+        "zh": [
+          "交叉熵损失衡量真实目标分布与模型预测概率之间的差异。",
+          "对于使用one-hot标签的单标签分类，它可以写成正确类别预测概率的负对数。",
+          "如果模型给正确类别很高的概率，损失就很小。",
+          "如果模型非常自信但预测错误，损失会很大，因此交叉熵会重点惩罚自信的错误。",
+          "在多分类中，它通常和softmax概率一起使用，不过很多框架会把softmax和交叉熵合成一个数值更稳定的操作。"
+        ]
+      },
+      "keywords": [
+        "probability distribution",
+        "negative log",
+        "correct class",
+        "softmax"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "机器学习基本功"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q160",
+      "category": "机器学习基本功",
+      "question": {
+        "en": "What is the difference between a training set, validation set, and test set?",
+        "zh": "训练集、验证集和测试集有什么区别？"
+      },
+      "thinking": [
+        "三套数据三种职责 → 训练集学参数 → 验证集选模型和调超参数 → 测试集最后一次无偏评估 → 防止数据泄漏。"
+      ],
+      "phrases": [
+        {
+          "id": "Q160-p1",
+          "en": "The three sets have different roles."
+        },
+        {
+          "id": "Q160-p2",
+          "en": "The validation set is used to..."
+        },
+        {
+          "id": "Q160-p3",
+          "en": "The test set should be kept separate until..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "The three sets have different roles.",
+          "First, the training set is used to learn the model parameters.",
+          "Second, the validation set is used during development to tune hyperparameters, compare models, and decide when to stop training.",
+          "Third, the test set is used only for the final evaluation of the selected model on unseen data.",
+          "They should be kept separate. If test information affects model design, the final result may be overly optimistic because of data leakage."
+        ],
+        "zh": [
+          "这三类数据承担不同职责。",
+          "第一，训练集用于学习模型参数。",
+          "第二，验证集用于开发阶段调节超参数、比较模型，并决定何时停止训练。",
+          "第三，测试集只用于最终评估已经选定的模型在未见数据上的表现。",
+          "三者应该保持独立。如果测试集信息参与了模型设计，最终结果可能因为数据泄漏而过于乐观。"
+        ]
+      },
+      "keywords": [
+        "parameters",
+        "hyperparameters",
+        "final evaluation",
+        "data leakage"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "机器学习基本功"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q161",
+      "category": "训练与评价",
+      "question": {
+        "en": "What is a learning rate?",
+        "zh": "什么是学习率？"
+      },
+      "thinking": [
+        "定义为更新步长 → 太大可能震荡或发散 → 太小训练慢或停滞 → 需要调参或调度。"
+      ],
+      "phrases": [
+        {
+          "id": "Q161-p1",
+          "en": "The learning rate controls..."
+        },
+        {
+          "id": "Q161-p2",
+          "en": "If it is too large..."
+        },
+        {
+          "id": "Q161-p3",
+          "en": "In practice, we often..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "The learning rate is a hyperparameter that controls the size of each parameter update during optimization.",
+          "First, if it is too large, the optimizer may overshoot a good region, oscillate, or even diverge.",
+          "Second, if it is too small, training can be very slow and may make little progress.",
+          "Third, a useful learning rate often changes during training, so we may use warm-up or a decay schedule.",
+          "In practice, it is one of the most important hyperparameters to tune."
+        ],
+        "zh": [
+          "学习率是控制优化过程中每次参数更新大小的超参数。",
+          "第一，如果学习率太大，优化器可能越过较好的区域、发生震荡，甚至发散。",
+          "第二，如果学习率太小，训练会很慢，也可能几乎没有进展。",
+          "第三，合适的学习率可能随训练过程变化，因此可以使用warm-up或衰减策略。",
+          "在实践中，它是最重要的超参数之一。"
+        ]
+      },
+      "keywords": [
+        "hyperparameter",
+        "step size",
+        "diverge",
+        "schedule"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "训练与评价"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q162",
+      "category": "训练与评价",
+      "question": {
+        "en": "What is the difference between SGD and Adam?",
+        "zh": "SGD和Adam有什么区别？"
+      },
+      "thinking": [
+        "更新方式 → SGD直接用梯度并可加动量 → Adam利用一阶和二阶矩做自适应步长 → 速度、内存、泛化的取舍。"
+      ],
+      "phrases": [
+        {
+          "id": "Q162-p1",
+          "en": "Both are gradient-based optimizers, but..."
+        },
+        {
+          "id": "Q162-p2",
+          "en": "Adam keeps moving estimates of..."
+        },
+        {
+          "id": "Q162-p3",
+          "en": "Neither optimizer is always better."
+        }
+      ],
+      "answer": {
+        "en": [
+          "Both SGD and Adam are gradient-based optimizers, but they use gradients differently.",
+          "First, SGD updates parameters using the current mini-batch gradient, often with momentum. It is simple and memory-efficient, but its learning rate may require careful tuning.",
+          "Second, Adam keeps moving estimates of the first and second moments of the gradients. This gives different parameters adaptive step sizes.",
+          "Third, Adam often makes fast initial progress, while well-tuned SGD can be competitive and sometimes generalizes better.",
+          "Neither optimizer is always better. The choice should be tested for the model and task."
+        ],
+        "zh": [
+          "SGD和Adam都是基于梯度的优化器，但它们使用梯度的方式不同。",
+          "第一，SGD利用当前小批量的梯度更新参数，并经常配合动量。它简单、节省内存，但学习率通常需要仔细调整。",
+          "第二，Adam维护梯度一阶矩和二阶矩的移动估计，从而为不同参数提供自适应步长。",
+          "第三，Adam通常在训练初期进展较快，而调节良好的SGD也很有竞争力，并且有时泛化更好。",
+          "没有一种优化器永远更好，应该根据具体模型和任务进行验证。"
+        ]
+      },
+      "keywords": [
+        "mini-batch gradient",
+        "momentum",
+        "adaptive step size",
+        "generalization"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "训练与评价"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q163",
+      "category": "训练与评价",
+      "question": {
+        "en": "What are precision, recall, and F1-score?",
+        "zh": "什么是精确率、召回率和F1-score？"
+      },
+      "thinking": [
+        "先基于TP/FP/FN定义 → precision关注预测为正有多少是真的 → recall关注真实为正找回多少 → F1是调和平均。"
+      ],
+      "phrases": [
+        {
+          "id": "Q163-p1",
+          "en": "Precision answers the question..."
+        },
+        {
+          "id": "Q163-p2",
+          "en": "Recall answers a different question..."
+        },
+        {
+          "id": "Q163-p3",
+          "en": "F1 is the harmonic mean of..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "Precision, recall, and F1-score are common classification metrics.",
+          "First, precision is true positives divided by all predicted positives. It asks: when the model predicts positive, how often is it correct?",
+          "Second, recall is true positives divided by all actual positives. It asks: how many real positive cases did the model find?",
+          "Third, F1 is the harmonic mean of precision and recall, so it is high only when both are reasonably high.",
+          "Precision matters more when false positives are costly, while recall matters more when missing a positive case is costly."
+        ],
+        "zh": [
+          "精确率、召回率和F1是常见的分类评价指标。",
+          "第一，精确率等于真正例除以所有预测为正的样本。它回答：模型预测为正时，有多少是真的？",
+          "第二，召回率等于真正例除以所有实际为正的样本。它回答：真实正例中有多少被模型找到了？",
+          "第三，F1是精确率和召回率的调和平均，因此只有两者都比较高时，F1才会高。",
+          "误报代价高时更关注精确率，漏掉正例代价高时更关注召回率。"
+        ]
+      },
+      "keywords": [
+        "true positive",
+        "false positive",
+        "false negative",
+        "harmonic mean"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "训练与评价"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q164",
+      "category": "训练与评价",
+      "question": {
+        "en": "What is regularization?",
+        "zh": "什么是正则化？"
+      },
+      "thinking": [
+        "目标是泛化而非单纯降训练误差 → 约束模型或训练过程 → 参数惩罚、dropout/增强、早停三类例子 → 过强会欠拟合。"
+      ],
+      "phrases": [
+        {
+          "id": "Q164-p1",
+          "en": "Regularization refers to techniques that..."
+        },
+        {
+          "id": "Q164-p2",
+          "en": "Common methods include..."
+        },
+        {
+          "id": "Q164-p3",
+          "en": "The strength of regularization must be balanced."
+        }
+      ],
+      "answer": {
+        "en": [
+          "Regularization refers to techniques that improve generalization by limiting how closely a model fits the training data.",
+          "First, parameter penalties such as L1 or L2 discourage unnecessarily large or complex weights.",
+          "Second, methods such as dropout and data augmentation add noise or variation during training.",
+          "Third, early stopping limits training when validation performance begins to worsen.",
+          "Regularization must be balanced. If it is too weak, the model may overfit; if it is too strong, the model may underfit."
+        ],
+        "zh": [
+          "正则化是通过限制模型对训练数据的过度拟合来改善泛化的一类方法。",
+          "第一，L1或L2等参数惩罚会限制不必要的大权重或复杂度。",
+          "第二，dropout和数据增强会在训练中加入随机性或变化。",
+          "第三，早停会在验证集表现开始变差时限制继续训练。",
+          "正则化强度需要平衡：太弱可能过拟合，太强可能欠拟合。"
+        ]
+      },
+      "keywords": [
+        "generalization",
+        "L1",
+        "L2",
+        "early stopping"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "训练与评价"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q165",
+      "category": "训练与评价",
+      "question": {
+        "en": "What is dropout and why does it work?",
+        "zh": "什么是dropout？它为什么有效？"
+      },
+      "thinking": [
+        "训练时随机屏蔽神经元 → 减少共同适应 → 相当于训练许多子网络的近似集成 → 推理时使用完整网络并保持尺度。"
+      ],
+      "phrases": [
+        {
+          "id": "Q165-p1",
+          "en": "During training, dropout randomly..."
+        },
+        {
+          "id": "Q165-p2",
+          "en": "This reduces co-adaptation..."
+        },
+        {
+          "id": "Q165-p3",
+          "en": "At inference time..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "Dropout is a regularization method for neural networks.",
+          "During training, it randomly sets a fraction of activations to zero.",
+          "First, this prevents the network from relying too heavily on a small group of neurons. Second, it reduces co-adaptation between features. Third, it can be viewed as an efficient approximation to combining many different subnetworks.",
+          "At inference time, dropout is turned off and the full network is used with the appropriate scaling.",
+          "It often reduces overfitting, but the dropout rate still needs to be tuned."
+        ],
+        "zh": [
+          "Dropout是一种神经网络正则化方法。",
+          "在训练时，它会随机把一部分激活值设为零。",
+          "第一，这能避免网络过度依赖少数神经元；第二，它能减少特征之间的共同适应；第三，可以把它理解为对许多不同子网络进行组合的一种高效近似。",
+          "在推理时，dropout会关闭，并通过适当的尺度处理使用完整网络。",
+          "它通常能减轻过拟合，但dropout比例仍然需要调节。"
+        ]
+      },
+      "keywords": [
+        "randomly zero",
+        "co-adaptation",
+        "subnetworks",
+        "inference"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "训练与评价"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q166",
+      "category": "深度学习与研究方向",
+      "question": {
+        "en": "What is a convolutional neural network?",
+        "zh": "什么是卷积神经网络？"
+      },
+      "thinking": [
+        "定义 → 用卷积处理网格数据 → 局部连接和参数共享 → 从低级到高级学习层次特征 → 适合视觉且计算高效。"
+      ],
+      "phrases": [
+        {
+          "id": "Q166-p1",
+          "en": "A convolutional neural network is designed for..."
+        },
+        {
+          "id": "Q166-p2",
+          "en": "Its main idea is to use..."
+        },
+        {
+          "id": "Q166-p3",
+          "en": "As layers become deeper..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "A convolutional neural network, or CNN, is a neural network designed for grid-like data such as images.",
+          "First, it uses learnable filters to detect local patterns such as edges, textures, or shapes.",
+          "Second, the same filter is shared across different locations, which reduces the number of parameters and helps detect a pattern wherever it appears.",
+          "Third, as layers become deeper, the network can combine simple patterns into higher-level features.",
+          "This makes CNNs efficient and effective for many vision tasks, including classification, detection, and segmentation."
+        ],
+        "zh": [
+          "卷积神经网络，也就是CNN，是一种适合处理图像等网格数据的神经网络。",
+          "第一，它使用可学习的卷积核检测边缘、纹理和形状等局部模式。",
+          "第二，同一个卷积核会在不同位置共享，这能减少参数量，也能让模型在不同位置识别相同模式。",
+          "第三，随着网络加深，模型可以把简单模式逐步组合成更高层特征。",
+          "因此，CNN在分类、检测和分割等视觉任务中非常有效。"
+        ]
+      },
+      "keywords": [
+        "grid-like data",
+        "local patterns",
+        "parameter sharing",
+        "hierarchical features"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "深度学习与研究方向"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q167",
+      "category": "深度学习与研究方向",
+      "question": {
+        "en": "What does a convolution layer do?",
+        "zh": "卷积层的作用是什么？"
+      },
+      "thinking": [
+        "操作过程 → 卷积核滑动并做局部加权和 → 生成特征图 → stride/padding控制尺寸 → 参数共享学习局部模式。"
+      ],
+      "phrases": [
+        {
+          "id": "Q167-p1",
+          "en": "A convolution layer applies..."
+        },
+        {
+          "id": "Q167-p2",
+          "en": "At each location..."
+        },
+        {
+          "id": "Q167-p3",
+          "en": "Stride and padding control..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "A convolution layer applies a set of learnable filters across the input.",
+          "At each location, a filter computes a weighted sum over a small local region and produces one value in a feature map.",
+          "First, different filters can learn different patterns. Second, weight sharing makes the operation efficient. Third, stacking layers increases the receptive field and feature complexity.",
+          "Stride controls how far the filter moves, while padding helps control the output size and boundary information.",
+          "So the layer converts raw local input into learned feature maps."
+        ],
+        "zh": [
+          "卷积层会在输入上应用一组可学习的卷积核。",
+          "在每个位置，卷积核对一个局部区域进行加权求和，并在特征图中产生一个数值。",
+          "第一，不同卷积核可以学习不同模式；第二，权重共享提高了效率；第三，多层堆叠会扩大感受野并提升特征复杂度。",
+          "步幅控制卷积核每次移动的距离，填充则帮助控制输出尺寸和边界信息。",
+          "因此，卷积层会把原始局部输入转换成学习到的特征图。"
+        ]
+      },
+      "keywords": [
+        "filter",
+        "local region",
+        "feature map",
+        "stride",
+        "padding"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "深度学习与研究方向"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q168",
+      "category": "深度学习与研究方向",
+      "question": {
+        "en": "What is the attention mechanism?",
+        "zh": "什么是注意力机制？"
+      },
+      "thinking": [
+        "定义 → query与key计算相关性 → softmax得到权重 → 对value加权求和 → 动态聚合重要信息。"
+      ],
+      "phrases": [
+        {
+          "id": "Q168-p1",
+          "en": "Attention allows a model to..."
+        },
+        {
+          "id": "Q168-p2",
+          "en": "A common form uses queries, keys, and values."
+        },
+        {
+          "id": "Q168-p3",
+          "en": "The output is a weighted sum of..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "Attention allows a model to assign different importance to different pieces of information.",
+          "A common form uses queries, keys, and values.",
+          "First, a query is compared with the keys to produce relevance scores. Second, softmax turns the scores into weights. Third, the output is a weighted sum of the values.",
+          "Because the weights depend on the current query, the model can gather information dynamically instead of treating every input equally.",
+          "Attention is widely used in language, vision, multimodal learning, and intelligent agents."
+        ],
+        "zh": [
+          "注意力机制让模型能够给不同信息分配不同的重要程度。",
+          "一种常见形式使用query、key和value。",
+          "第一，用query和key计算相关性分数；第二，用softmax把分数变成权重；第三，对value进行加权求和得到输出。",
+          "由于权重取决于当前query，模型可以动态聚合信息，而不是平等处理所有输入。",
+          "注意力机制广泛用于语言、视觉、多模态学习和智能体系统。"
+        ]
+      },
+      "keywords": [
+        "query",
+        "key",
+        "value",
+        "weighted sum"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "深度学习与研究方向"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q169",
+      "category": "深度学习与研究方向",
+      "question": {
+        "en": "What is self-attention?",
+        "zh": "什么是自注意力？"
+      },
+      "thinking": [
+        "和普通attention区分 → Q/K/V来自同一序列 → 每个位置聚合其他位置 → 长距离依赖和并行计算 → 标准实现是O(n²)。"
+      ],
+      "phrases": [
+        {
+          "id": "Q169-p1",
+          "en": "Self-attention is a special case of attention."
+        },
+        {
+          "id": "Q169-p2",
+          "en": "The queries, keys, and values come from..."
+        },
+        {
+          "id": "Q169-p3",
+          "en": "One limitation of standard self-attention is..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "Self-attention is a special case of attention in which the queries, keys, and values come from the same sequence.",
+          "For each position, the model compares that position with other allowed positions and combines their value vectors.",
+          "First, this creates a context-aware representation. Second, it can connect distant positions directly. Third, all positions can be processed in parallel during training when masking allows it.",
+          "In an autoregressive decoder, a mask prevents a token from attending to future tokens.",
+          "One limitation of standard self-attention is that its time and memory cost grow quadratically with sequence length."
+        ],
+        "zh": [
+          "自注意力是注意力机制的一种特殊情况，其中query、key和value都来自同一个序列。",
+          "对于每个位置，模型会把它与其他允许访问的位置进行比较，并组合这些位置的value向量。",
+          "第一，它能产生包含上下文的表示；第二，它能直接连接相距较远的位置；第三，在掩码允许时，训练中所有位置可以并行处理。",
+          "在自回归解码器中，掩码会阻止当前token看到未来token。",
+          "标准自注意力的一个局限是时间和内存开销会随序列长度呈平方增长。"
+        ]
+      },
+      "keywords": [
+        "same sequence",
+        "context-aware",
+        "long-range",
+        "quadratic cost"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "深度学习与研究方向"
+      ],
+      "favorite": false,
+      "mastery": 0
+    },
+    {
+      "id": "Q170",
+      "category": "深度学习与研究方向",
+      "question": {
+        "en": "What is a Transformer?",
+        "zh": "什么是Transformer？"
+      },
+      "thinking": [
+        "定义架构 → 多头自注意力建模依赖 → 前馈网络处理每个位置 → 残差、归一化、位置信息稳定并保留顺序 → 优势与代价。"
+      ],
+      "phrases": [
+        {
+          "id": "Q170-p1",
+          "en": "A Transformer is a neural network architecture based mainly on..."
+        },
+        {
+          "id": "Q170-p2",
+          "en": "A typical Transformer layer contains..."
+        },
+        {
+          "id": "Q170-p3",
+          "en": "Its main advantage is..."
+        }
+      ],
+      "answer": {
+        "en": [
+          "A Transformer is a neural network architecture based mainly on attention rather than recurrence.",
+          "First, multi-head self-attention lets each position gather information from different positions and representation spaces.",
+          "Second, a position-wise feed-forward network further transforms each representation.",
+          "Third, residual connections, normalization, and positional information make deep training stable and preserve sequence order.",
+          "Its main advantages are parallel training and strong modeling of long-range dependencies. A main limitation is the high cost of standard attention on long sequences.",
+          "Transformers now support language models as well as many vision, speech, and multimodal systems."
+        ],
+        "zh": [
+          "Transformer是一种主要基于注意力而不是循环结构的神经网络架构。",
+          "第一，多头自注意力让每个位置从不同位置和不同表示子空间聚合信息。",
+          "第二，逐位置前馈网络会继续变换每个表示。",
+          "第三，残差连接、归一化和位置信息让深层训练更稳定，并保留序列顺序。",
+          "它的主要优势是训练可以并行，并且擅长建模长距离依赖；一个主要局限是标准注意力在长序列上的开销较高。",
+          "现在，Transformer不仅用于语言模型，也广泛用于视觉、语音和多模态系统。"
+        ]
+      },
+      "keywords": [
+        "multi-head self-attention",
+        "feed-forward network",
+        "positional information",
+        "parallel training"
+      ],
+      "fallbacks": [],
+      "tags": [
+        "核心题库",
+        "A 必熟",
+        "深度学习与研究方向"
+      ],
+      "favorite": false,
+      "mastery": 0
     }
   ],
   "pronunciation": [

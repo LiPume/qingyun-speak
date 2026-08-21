@@ -44,7 +44,7 @@ test("legacy default migrates to Native V1 after refresh", async ({ page }) => {
   await page.getByRole("button", { name: "确认覆盖并导入" }).click();
   await expect(page.getByText("98 道题 · 6 个发音词条")).toBeVisible();
   await page.reload();
-  await expect(page.getByText("142 道题 · 42 个发音词条")).toBeVisible();
+  await expect(page.getByText("170 道题 · 42 个发音词条")).toBeVisible();
 });
 
 test("daily module plan → check-in → undo → progress → practice filter → full restore", async ({ page }, testInfo) => {
