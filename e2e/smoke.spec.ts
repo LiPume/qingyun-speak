@@ -29,6 +29,10 @@ test("load → import → search → open → edit → reload → export", async
   await page.getByRole("button", { name: "保存题目" }).click();
   await page.reload();
   await expect(page.locator("h1").first()).toContainText("TEST");
+  await expect.poll(() => page.evaluate(() => {
+    const stored = localStorage.getItem("qingyun.dataset.v1");
+    return stored ? JSON.parse(stored).questions.length : 0;
+  })).toBe(170);
 
   await page.getByRole("link", { name: "数据与设置" }).click();
   const downloadPromise = page.waitForEvent("download");

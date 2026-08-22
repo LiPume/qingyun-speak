@@ -1,5 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { validateDataset } from "./validation";
+import { appendMissingDefaultQuestions, isPreviousDefaultDataset } from "./migration";
 import type { InterviewDataset, InterviewQuestion, PronunciationItem } from "../../models/dataset";
 import { isLegacyDefaultDataset, loadDataset, resetDataset as clearStoredDataset, saveDataset } from "../../storage/storage";
 
@@ -25,9 +26,13 @@ async function fetchDefaultDataset(): Promise<InterviewDataset> {
 
 export function DatasetProvider({ children }: { children: ReactNode }) {
   const [dataset, setDataset] = useState<InterviewDataset | null>(loadDataset);
-  const [loading, setLoading] = useState(() => dataset === null);
+  const initialLoadMigration: "replace" | "append" | null =
+    dataset === null || isLegacyDefaultDataset(dataset)
+      ? "replace"
+      : isPreviousDefaultDataset(dataset) ? "append" : null;
+  const loadMigration = useRef(initialLoadMigration);
+  const [loading, setLoading] = useState(() => initialLoadMigration !== null);
   const [error, setError] = useState<string | null>(null);
-  const migrateLegacyOnLoad = useRef(dataset !== null && isLegacyDefaultDataset(dataset));
 
   const persist = useCallback((next: InterviewDataset) => {
     const updated = { ...next, metadata: { ...next.metadata, updatedAt: new Date().toISOString() } };
@@ -50,11 +55,17 @@ export function DatasetProvider({ children }: { children: ReactNode }) {
   }, [persist]);
 
   useEffect(() => {
-    if (dataset && !migrateLegacyOnLoad.current) return;
-    migrateLegacyOnLoad.current = false;
+    const migration = loadMigration.current;
+    if (dataset && migration === null) return;
     let active = true;
     void fetchDefaultDataset()
-      .then((next) => { if (active) persist(next); })
+      .then((next) => {
+        if (!active) return;
+        loadMigration.current = null;
+        persist(migration === "append" && dataset
+          ? appendMissingDefaultQuestions(dataset, next)
+          : next);
+      })
       .catch((reason: unknown) => {
         if (active) setError(reason instanceof Error ? reason.message : "默认题库加载失败。 ");
       })
